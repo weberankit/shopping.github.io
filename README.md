@@ -15,4 +15,4 @@
 
 <h2>User Authentication:</h2> To enhance user experience, my project includes a login and logout system that uses local storage
 
-I've put in a lot of effort to make this shopping cart website as functional and user-friendly as possible, given its status as one of my initial projects. While it may have some structural quirks, rest assured that I've refined my project organization and development practices in my subsequent React projects. I hope you enjoy exploring it, and I'm open to any feedback or suggestions for improvement.
+I've put in a lot of effort to make this shopping cart website as functional and user-friendly as possible, given its status as one of my initial projects. While it may have some structural quirks,  I hope you enjoy exploring it, and I'm open to any feedback or suggestions for improvement.
