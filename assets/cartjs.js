@@ -94,6 +94,7 @@ let increment = (id) => {
   generateCartItems();
   update(selectedItem.id);
   localStorage.setItem("data", JSON.stringify(basket));
+  calculation()
 };
 let decrement = (id) => {
   let selectedItem = id;
@@ -108,6 +109,7 @@ let decrement = (id) => {
   basket = basket.filter((x) => x.item !== 0);
   generateCartItems();
   localStorage.setItem("data", JSON.stringify(basket));
+  calculation()
 };
 
 let update = (id) => {
@@ -125,12 +127,14 @@ let removeItem = (id) => {
   generateCartItems();
   TotalAmount();
   localStorage.setItem("data", JSON.stringify(basket));
+  calculation()
 };
 
 let clearCart = () => {
   basket = [];
   generateCartItems();
   localStorage.setItem("data", JSON.stringify(basket));
+  calculation()
 };
 
 let TotalAmount = () => {
