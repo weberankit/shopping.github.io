@@ -803,7 +803,7 @@ if(selecteditemID===allData[index].id){
 <div class="box-img">
 </div>
  </div>
-  <div class="price">RS${allData[index].price}</div>
+  <div class="price">$ ${allData[index].price}</div>
   </div>
  
 <div class="reviews"></div>
